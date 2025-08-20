@@ -395,7 +395,7 @@ a {
 .side-menu ul li {
   text-align: left;
   padding: 20px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #d1d1d1;
   font-weight: 600;
 }
 
@@ -409,4 +409,12 @@ a {
 .side-menu.active {
   left: 0;
 }
+
+hr {
+  border: none;
+  background-color: #d1d1d1;
+  height: 1px;
+}
+
+
 
