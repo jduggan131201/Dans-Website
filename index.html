@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#55a159" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sticky-header">
+      <div class="top-banner">
+        <p>Delivery anywhere in the North West - for Free!!</p>
+      </div>
+      <nav>
+        <div class="hamburger-wrapper">
+          <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <p class="menu-text">Menu</p>
+        </div>
+
+        <!-- START OF NAV SLIDE  -->
+        <div class="side-menu" id="sideMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAV SLIDE  -->
+
+        <div class="logo">
+          <div class="circle">RB</div>
+          <div class="vans-text">AUTOS</div>
+        </div>
+        <div class="spacer"></div>
+      </nav>
+      <div class="contact-banner">
+        <div class="phone"><i class="fa-solid fa-phone"></i> 07702086161</div>
+        <div class="email">
+          <a href="/" class="email-us"
+            ><i class="fa-regular fa-envelope"></i> Email Us</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="filters-form">
+      <h1>Welcome To RB AUTOS</h1>
+      <p class="subheading">
+        Buy Fully Online With Free Delivery To Anywhere In The North West
+      </p>
+      <div class="form">
+        <div class="select-wrapper">
+          <select name="make" id="make" class="select">
+            <option value="" disabled selected hidden>Select a make</option>
+            <option value="Citroen">Citroen</option>
+            <option value="Ford">Ford</option>
+            <option value="Maxus">Maxus</option>
+          </select>
+        </div>
+        <div class="select-wrapper">
+          <select name="model" id="model" class="select">
+            <option value="" disabled selected hidden>Select a model</option>
+          </select>
+        </div>
+        <div class="select-wrapper">
+          <select name="maxPrice" id="maxPrice" class="select">
+            <option value="" disabled selected hidden>Max total price</option>
+            <option value="eight">£8,000</option>
+            <option value="ten">£10,000</option>
+            <option value="twelve">£12,000</option>
+          </select>
+        </div>
+
+        <button class="search-button">Search Vehicles</button>
+      </div>
+    </div>
+    <div class="autoTrader-review-badge">
+      <img
+        src="images/AutoTrader-review-badge.png"
+        alt="AutoTrader 5 Star Badge"
+        class="badge"
+      />
+    </div>
+    <div class="vans-list">
+      <select name="priceFilter" id="priceFilter">
+        <option value="highToLow">Price - High to Low</option>
+        <option value="lowToHigh">Price - Low to High</option>
+        <option value="newestToOldest">Year - Newest</option>
+        <option value="oldestToNewest">Year - Oldest</option>
+      </select>
+      <div class="vans-card">
+        <div class="vans-card-banner">
+          ALL VEHICLES ARE RIGOROUSLY TESTED FOR QUALITY
+        </div>
+        <div class="vans-card-image">
+          <img src="images/van-pic1.jpg" alt="/" class="van-image" />
+        </div>
+        <div class="vans-card-badges">
+          <div class="autoTrader">
+            <img
+              src="images/AutoTrader-review-badge.png"
+              alt="Review Badge"
+              class="autoTrader-image"
+            />
+          </div>
+          <div class="logo small">
+            <div class="circle">RB</div>
+            <div class="vans-text">AUTOS</div>
+          </div>
+          <div class="free-delivery">
+            <span class="free">FREE</span><span class="delivery">DELIVERY</span>
+          </div>
+        </div>
+        <div class="price">
+          <p>£5,999 <span class="vat">+ VAT</span></p>
+        </div>
+        <hr />
+        <p class="van-name">
+          Renault Trafic 1.6 dCi ENERGY 29 Sport Crew Van LWB Euro 5 (s/s) 5dr
+        </p>
+        <hr />
+        <div class="van-spec">
+          <p class="year flex">
+            <span>Year</span><span class="right-aligned">2015</span>
+          </p>
+          <p class="Mileage flex">
+            <span>Mileage</span><span class="right-aligned">125,000</span>
+          </p>
+          <p class="body-type flex">
+            <span>Body Type</span><span class="right-aligned">Combi Van</span>
+          </p>
+          <p class="wheelbase flex">
+            <span>Wheelbase</span><span class="right-aligned">LWB</span>
+          </p>
+        </div>
+        <a href="test-product.html"
+          ><button class="view-vehicle-btn">View <br />Vehicle</button></a
+        >
+        <div class="photos-video">
+          <p><i class="fa-solid fa-camera"></i> 10 Photos</p>
+          <p><i class="fa-solid fa-video"></i> Video</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        @ 2025 RB Automotive LTD. All rights reserved. info@rbautomotive.com |
+        Phone: +44 7702 086161
+      </p>
+    </footer>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6d4ef02d59.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
