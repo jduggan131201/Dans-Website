@@ -1,5 +1,5 @@
 .about-page {
-  padding: 0px 40px;
+  padding: 0px 20px;
   padding-top: calc(89px + 30px);
   padding-bottom: 50px;
   background-color: #e9ebf3;
@@ -51,3 +51,4 @@
     aspect-ratio: 9/7;
   }
 }
+
