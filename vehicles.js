@@ -53,7 +53,7 @@ const vehicles = [
 
     This well-maintained and reliable van is in excellent condition and offers a tidy, professional appearance. With low mileage for its age, it drives smoothly and is ready for immediate use, making it ideal for both business and personal applications. Practical, dependable, and versatile, this Citroen Berlingo is a great choice for anyone in need of a functional and efficient vehicle.  
     `,
-    image: "images/citroenBerlingoPanelVan.jpg",
+    image: "images/citroenBerlingoPanelVan.JPG",
     year: 2013,
     mileage: 73000,
     fuelType: "Diesel",
@@ -329,3 +329,4 @@ const vehicles = [
     ],
   },
 ];
+
