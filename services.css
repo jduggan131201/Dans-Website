@@ -1,0 +1,139 @@
+.sell-your-van {
+  padding: calc(125px + 80px) 15px 80px 15px;
+  background-color: #eff0f4;
+}
+
+.ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.ul li {
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.fa-circle-check {
+  color: #8cc63f;
+}
+
+.fa-circle-xmark {
+  color: #f4265c;
+}
+
+h1 {
+  font-size: 37px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 32px;
+  color: #666a73;
+}
+
+.p {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.sell-your-van-form {
+  padding: 80px 15px;
+  background-color: #676a72;
+}
+
+.syv-container i {
+  background-color: #333640;
+  color: #fff;
+  font-size: 30px;
+  width: 75px;
+  justify-self: center;
+}
+
+.syv-container {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #333640;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  height: 64px;
+  padding-left: 15px;
+  width: 100%;
+  border-radius: none;
+  font-size: 18px;
+}
+
+select {
+  border: none;
+  height: 64px;
+  padding-left: 15px;
+  width: 100%;
+  font-size: 18px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input::placeholder,
+select::placeholder {
+  color: #333640;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  background-color: #333640;
+  color: #fff;
+  border: none;
+  border-radius: none;
+  margin-top: 30px;
+}
+
+@media (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 195px;
+  }
+
+  .sell-your-van {
+    padding: 80px 25px;
+  }
+
+  .sell-your-van-form {
+    padding: 80px 25px;
+  }
+
+  .ul {
+    display: block;
+  }
+
+  .ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .p {
+    font-size: 25px;
+  }
+}

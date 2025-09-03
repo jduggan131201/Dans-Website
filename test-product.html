@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000" />
+    <title>Renault</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="product-page.css" />
+  </head>
+  <body>
+    <div class="sticky-header">
+      <div class="top-banner">
+        <p>Delivery anywhere in the North West - for Free!!</p>
+      </div>
+      <nav>
+        <div class="hamburger-wrapper">
+          <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <p class="menu-text">Menu</p>
+        </div>
+
+        <!-- START OF NAV SLIDE  -->
+        <div class="side-menu" id="sideMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAV SLIDE  -->
+
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/Untitled design (2).png"
+              alt="logo"
+              class="logo-image"
+          /></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="spacer"></div>
+      </nav>
+      <div class="contact-banner">
+        <div class="phone"><i class="fa-solid fa-phone"></i> 0151 2677 153</div>
+        <div class="email">
+          <a href="mailto:sales@peninsulamotorgroup.com" class="email-us"
+            ><i class="fa-regular fa-envelope"></i> Email Us</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="desktop-titleAndPrice">
+      <p class="van-name ppVan-name desktop-name" id="desktop-name"></p>
+      <p class="ppPrice desktop-price">
+        £<span id="desktop-price"></span> + VAT
+      </p>
+    </div>
+
+    <div class="vans-card ppVans-card">
+      <div class="item-1">
+        <div class="vans-card-banner">
+          ALL VEHICLES ARE RIGOROUSLY TESTED FOR QUALITY
+        </div>
+        <div class="carousel">
+          <div class="slides" id="slides"></div>
+          <div class="arrow-left" onclick="prevSlide()">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+
+          <div class="arrow-right" onclick="nextSlide()">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="vans-card-badges">
+          <div class="autoTrader">
+            <img
+              src="images/AutoTrader-review-badge.png"
+              alt="Review Badge"
+              class="autoTrader-image"
+            />
+          </div>
+          <div class="card-logo">
+            <img
+              src="images/Untitled design (2).png"
+              alt="logo"
+              class="logo-image"
+            />
+          </div>
+          <div class="free-delivery">
+            <span class="free">FREE</span><span class="delivery">DELIVERY</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="van-name ppVan-name" id="product-name"></p>
+      <p class="ppPrice" id="product-price"></p>
+      <div class="vehicle-description">
+        <div class="vehicle-description-title">
+          <p><i class="fa-solid fa-circle-info"></i> Vehicle Description</p>
+        </div>
+        <div class="vehicle-description-text" id="product-description">
+          <p id="product-description"></p>
+        </div>
+      </div>
+      <div class="ppSpec">
+        <div class="spec-item">
+          <i class="fa-light fa-calendar spec-symbol"></i>
+          <p class="spec-text" id="product-year"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-gauge spec-symbol"></i>
+          <p class="spec-text" id="product-mileage"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-gas-pump spec-symbol"></i>
+          <p class="spec-text" id="product-fuelType"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-gear spec-symbol"></i>
+          <p class="spec-text" id="gearbox"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-engine spec-symbol"></i>
+          <p class="spec-text" id="engine-size"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-van spec-symbol"></i>
+          <p class="spec-text" id="product-bodytype"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-paint-roller spec-symbol"></i>
+          <p class="spec-text" id="product-color"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-seat spec-symbol"></i>
+          <p class="spec-text" id="seats"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-car-circle-bolt spec-symbol"></i>
+          <p class="spec-text" id="emissions"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-gauge-circle-plus spec-symbol"></i>
+          <p class="spec-text" id="horsepower"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-gauge-simple-max spec-symbol"></i>
+          <p class="spec-text" id="mpg"></p>
+        </div>
+        <div class="spec-item">
+          <i class="fa-light fa-car-side spec-symbol"></i>
+          <p class="spec-text" id="euroStatus"></p>
+        </div>
+      </div>
+
+      <div class="vehicle-description">
+        <div class="vehicle-description-title">
+          <p><i class="fa-solid fa-magnifying-glass"></i> Technical Details</p>
+        </div>
+        <div class="technical-details-text">
+          <div class="bold-title">
+            <p>Performance</p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">Engine Size</p>
+            <p class="right-aligned-info" id="engine-size2"></p>
+          </div>
+          <div class="detail">
+            <p class="left-aligned-info">Top Speed</p>
+            <p class="right-aligned-info" id="top-speed"></p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">0-62mph</p>
+            <p class="right-aligned-info" id="0-62mph"></p>
+          </div>
+          <div class="detail">
+            <p class="left-aligned-info">Power</p>
+            <p class="right-aligned-info" id="power"></p>
+          </div>
+        </div>
+        <div class="technical-details-text">
+          <div class="bold-title">
+            <p>Dimensions</p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">Height</p>
+            <p class="right-aligned-info" id="height"></p>
+          </div>
+          <div class="detail">
+            <p class="left-aligned-info">Length</p>
+            <p class="right-aligned-info" id="length"></p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">Width</p>
+            <p class="right-aligned-info" id="width"></p>
+          </div>
+        </div>
+        <div class="technical-details-text">
+          <div class="bold-title">
+            <p>Emissions & Performance</p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">CO2</p>
+            <p class="right-aligned-info" id="emissions2"></p>
+          </div>
+          <div class="detail">
+            <p class="left-aligned-info">Combined</p>
+            <p class="right-aligned-info" id="milesPerGallon"></p>
+          </div>
+          <div class="detail white">
+            <p class="left-aligned-info">Extra Urban</p>
+            <p class="right-aligned-info" id="extra-urban"></p>
+          </div>
+          <div class="detail">
+            <p class="left-aligned-info">Urban</p>
+            <p class="right-aligned-info" id="urban"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        @ 2025 RB Automotive LTD. All rights reserved.
+        sales@peninsulamotorgroup.com | Phone: 0151 2677 153
+      </p>
+    </footer>
+    <script src="vehicles.js"></script>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/81e343f944.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

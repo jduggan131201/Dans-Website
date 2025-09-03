@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="services.css" />
+  </head>
+  <body>
+    <div class="sticky-header">
+      <div class="top-banner">
+        <p>Delivery anywhere in the North West - for Free!!</p>
+      </div>
+      <nav>
+        <div class="hamburger-wrapper">
+          <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <p class="menu-text">Menu</p>
+        </div>
+
+        <!-- START OF NAV SLIDE  -->
+        <div class="side-menu" id="sideMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- END OF NAV SLIDE  -->
+
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/Untitled design (2).png"
+              alt="logo"
+              class="logo-image"
+          /></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li class="link-item"><a href="index.html">Home</a></li>
+            <li class="link-item"><a href="about.html">About</a></li>
+            <li class="link-item"><a href="services.html">Services</a></li>
+            <li class="link-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="spacer"></div>
+      </nav>
+      <div class="contact-banner">
+        <div class="phone"><i class="fa-solid fa-phone"></i> 0151 2677 153</div>
+        <div class="email">
+          <a href="mailto:sales@peninsulamotorgroup.com" class="email-us"
+            ><i class="fa-regular fa-envelope"></i> Email Us</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sell-your-van">
+        <h1>ARE YOU LOOKING TO SELL YOUR VAN?</h1>
+        <h2>We could be looking to buy your van...</h2>
+        <p class="p">The type of vans we buy...</p>
+        <ul class="ul">
+          <li><i class="fa-regular fa-circle-check"></i> Low owners</li>
+          <li><i class="fa-regular fa-circle-check"></i> Low mileage vans</li>
+          <li>
+            <i class="fa-regular fa-circle-check"></i> No mechanical faults
+          </li>
+          <li><i class="fa-regular fa-circle-check"></i> Excellent bodywork</li>
+          <li>
+            <i class="fa-regular fa-circle-check"></i> 10 years old or less
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check"></i> Less than 80,000 miles
+          </li>
+        </ul>
+        <p class="p">The type of vans we don't buy...</p>
+        <ul class="ul">
+          <li><i class="fa-regular fa-circle-xmark"></i> High mileage vans</li>
+          <li>
+            <i class="fa-regular fa-circle-xmark"></i> Vans with no service
+            history
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-xmark"></i> Accident damage vans
+          </li>
+          <li><i class="fa-regular fa-circle-xmark"></i> Neglected vans</li>
+        </ul>
+      </div>
+      <div class="sell-your-van-form">
+        <div class="syv-container">
+          <i class="fa-solid fa-car"></i>
+          <input type="text" placeholder="Reg Number*" />
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-road"></i>
+          <input type="text" placeholder="Mileage*" />
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-oil-can"></i>
+          <select name="/" id="">
+            <option value="service-history" selected disabled>
+              Service History*
+            </option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Partial">Partial</option>
+          </select>
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <select name="/" id="">
+            <option value="mot-remaining" selected disabled>
+              MOT Remaining*
+            </option>
+            <option value="1">1 Month</option>
+            <option value="2">2 Months</option>
+            <option value="3">3 Months</option>
+            <option value="4">4 Months</option>
+            <option value="5">5 Months</option>
+            <option value="6">6 Months</option>
+            <option value="7">7 Months</option>
+            <option value="8">8 Months</option>
+            <option value="9">9 Months</option>
+            <option value="10">10 Months</option>
+            <option value="11">11 Months</option>
+            <option value="12">12 Months</option>
+          </select>
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-user"></i>
+          <input type="number" placeholder="Phone Number*" />
+        </div>
+        <div class="syv-container">
+          <i class="fa-solid fa-user"></i>
+          <input type="email" placeholder="Email Adresss*" />
+        </div>
+        <button>Submit</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        @ 2025 PMG Peninsula Motor Group LTD. All rights reserved.
+        sales@peninsulamotorgroup.com | Phone: 0151 2677 153
+      </p>
+    </footer>
+    <script src="vehicles.js"></script>
+    <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/81e343f944.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

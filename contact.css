@@ -1,0 +1,66 @@
+.contact-page {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 600px;
+}
+
+h1 {
+  margin: calc(123px + 50px) 0px 50px 0px;
+  font-size: 32px;
+}
+
+.fa-comment {
+  margin-right: 10px;
+}
+
+.name,
+.input-email,
+.telephone,
+.message {
+  margin-bottom: 15px;
+  background-color: #e9ebf3;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  gap: 10px;
+}
+
+input,
+textarea {
+  background-color: #e9ebf3;
+  border: none;
+  padding: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  flex: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  margin: 25px auto;
+  width: 100%;
+  border: none;
+  background-color: #676a72;
+  color: #fff;
+  padding: 15px 0px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button:active,
+button:hover {
+  background-color: #3e4044;
+}
+
+@media (min-width: 900px) {
+  h1 {
+    margin-top: calc(203px + 50px);
+  }
+}
